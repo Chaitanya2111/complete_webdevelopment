@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaitanya's IT Company</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&family=Trochut:ital@1&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*  css Reset*/
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url(img/it.jpg);
+        font-family: 'Trochut', cursive;
+
+    }
+
+    .left {
+        display: inline-block;
+     /*   border: 2px solid red;*/
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+    }
+
+    .left img {
+        width: 120px;
+    }
+
+    .mid {
+      /*  border: 2px solid greenyellow;*/
+        display: block;
+        width: 53%;
+        margin: 29px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 45px;
+        display: inline-block;
+       /* border: 2px solid pink;*/
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: aqua;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(47, 158, 112);
+    }
+
+    .btn {
+        font-family: 'Trochut', cursive;
+        margin: 0px 9px;
+        color: black;
+        background-color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        font-size: 15px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: greenyellow;
+    }
+
+    .container {
+        border: 2px solid yellowgreen;
+        margin: 105px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 25px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 504px;
+        padding: 9px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 6px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 23%;
+        margin:20px auto ;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="Logo">
+
+        </div>
+        <!-- mid box for span -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Newsletters</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#"> Chaitanya's products</a></li>
+
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn"> Call Us Now</button>
+            <button class="btn">Email US</button>
+        </div>
+        <header>
+            <div class="container">
+            </h1> Join the best company of satara now</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                    <input type="text" name="" placeholder="Education">
+                    <input type="text" name="" placeholder=" Locality">
+                    <input type="text" name="" placeholder="Email">
+                    <input type="text" name="" placeholder="Mobile no">
+
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+            
+        </header>
+    </header>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Box Shadow and text shadow</title>
+       <style>
+.container{
+    display: flex;
+
+}
+.card{
+    padding: 23px 12px ;
+    border: 2px solid yellowgreen;
+    margin: 23px 12px;
+    background-color: burlywood;
+
+    box-shadow: 10px 13px  rgb(66, 66, 52); /*(bottom of box)*/
+
+   /* box-shadow: -10px -13px rgb(66, 66, 52);(Top of box)*/
+
+  /* box-shadow: 7px 5px 10px rebeccapurple;(bottom blur radius)*/
+
+   /*box-shadow: -7px -5px -10px rebeccapurple;(top blur radius)*/
+
+   /*box-shadow: 7px 5px 10px 20px;(spread radius shadow all side)*/
+  
+  /* box-shadow: inset 3px 5px gray ; (shadow inside the box)*/
+
+ /* box-shadow: 3px 5px red green,2px 4px yellow yellowgreen;  (double shadow)*/
+}
+
+.card h2{
+    text-shadow: 3px 4px blueviolet;
+}
+       </style>
+   </head>
+   <body>
+       <div class="container"> 
+           <div class="card" id="card1">
+               <h2>card 1</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia necessitatibus similique dolorum debitis voluptates provident, iusto natus quos, magnam fugit sequi quasi impedit! Mollitia minus dolores neque modi deserunt vero quam eos consequuntur praesentium dolor, aliquid voluptatibus cupiditate laborum doloremque.</p>
+           </div>
+           <div class="card" id="card2">
+               <h2>card 2</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vero explicabo hic aliquam, amet cum quidem fuga veniam! Minima rem ipsam laboriosam rerum magni quaerat possimus aut nobis obcaecati placeat. Non obcaecati dignissimos in provident voluptatem earum, repellat sapiente odit!</p>
+           </div>
+           <div class="card" id="card3"> 
+               <h2>card 3</h2>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti iure dolorum perferendis magnam earum accusamus ad, quisquam dolor nobis cumque harum fugit autem laudantium unde eum laboriosam consequuntur. Reprehenderit nostrum, iste illo sint necessitatibus sed delectus a consequatur animi alias!</p>
+           </div>
+       </div>
+   </body>
+   </html>

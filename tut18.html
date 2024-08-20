@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #container {
+            width: 900px;
+            border: 3px solid black;
+            margin: auto;
+            background-color: rgb(133, 240, 208);
+        }
+
+        .item {
+            border: 3px solid gray;
+            margin: 13px 3px;
+            padding: 13px 3px;
+            background: rgb(230, 126, 126);
+        }
+
+        #fruits {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: right;
+            width: 48%;
+
+        }
+
+        #mobile {
+            /*float: left;*/
+            width: 100%;
+            clear: both;
+        }
+
+        p,
+        h2 {
+            text-align: right;
+            text-align: left;
+            text-align: center;
+            text-align: justify;
+        }
+
+        h1 {
+            margin:30px auto;
+            width: 450px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>WELCOME TO MY STORE</h1>
+        <div id="fruits" class="item">
+            <h2>FRUITS</h2>
+            <p id="fruitspara" class="para">
+                Simple fruits are the result of the ripening-to-fruit of a simple or compound ovary in a single flower
+                with a single pistil. In contrast, a single flower with numerous pistils typically produces an aggregate
+                fruit; and the merging of several flowers, or a 'multiple' of flowers, results in a 'multiple'
+                fruit.[16] A simple fruit is further classified as to whether it is dry or fleshy.
+            </p>
+
+
+        </div>
+        <div id="computer" class="item">
+            <h2>COMPUTER</h2>
+            <p id="computerpara" class="para">
+                A computer is a digital electronic machine that can be programmed to carry out sequences of arithmetic
+                or logical operations (computation) automatically. Modern computers can perform generic sets of
+                operations known as programs. These programs enable computers to perform a wide range of tasks. A
+                computer system is a "complete" computer that includes the hardware, operating system (main software),
+                and peripheral equipment needed and used for "full" operation.
+            </p>
+        </div>
+        <div id="mobile" class="item">
+            <h2>FRUITS</h2>
+            <p id="mobilepara" class="para">
+                A mobile phone, cellular phone, cell phone, cellphone, handphone, or hand phone, sometimes shortened to
+                simply mobile, cell, or just phone, is a portable telephone that can make and receive calls over a radio
+                frequency link while the user is moving within a telephone service area.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
